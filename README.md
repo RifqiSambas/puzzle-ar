@@ -14,6 +14,9 @@ still haven't done yet
 - documentation
 - tutorial
 
+## Issues
+- harus menggunakan incognito mode jika mengakses https://puzzle.sera5.id page saat game dimulai, namun jika di local tidak ada masalah
+
 ## Meta
 
 Rifqi Sambas Khairurrohman – rifqi@sera5.id
