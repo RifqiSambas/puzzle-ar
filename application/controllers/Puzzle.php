@@ -4,7 +4,7 @@ class Puzzle extends CI_Controller
 {
 	public $data = array(
 		'title' => 'ar-based puzzle game',
-		'position' => 'top',
+		'position' => '',
 		'src' => 'puzzle/common/src',
 	);
 

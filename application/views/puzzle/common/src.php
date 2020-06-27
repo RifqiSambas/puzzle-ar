@@ -7,7 +7,6 @@
 
 	AFRAME.registerComponent('markers_start', {
 		init: function() {
-			k
 			console.log('Add markers to the scene');
 			var sceneEl = document.querySelector('a-scene');
 
@@ -18,6 +17,10 @@
 				markersNameArray.push('Marker_' + i);
 			}
 
+			for (var j = 0; j < 9; j++) {
+				var markerEl = document.createElement('a-assets');
+			}
+
 			for (var k = 0; k < 9; k++) {
 				var markerEl = document.createElement('a-marker');
 				markerEl.setAttribute('type', 'pattern');
@@ -26,7 +29,6 @@
 				markerEl.setAttribute('registerevents', '');
 				sceneEl.appendChild(markerEl);
 
-				//Adding a image to each marker
 				var imageEl = document.createElement('a-image');
 				var imageSrc = "<?= base_url('assets/uploads/') ?>" + k + ".png";
 

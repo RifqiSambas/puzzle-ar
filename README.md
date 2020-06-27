@@ -10,7 +10,7 @@ still haven't done yet
 - ~~upload model~~
 - ~~split model~~
 - shuffle model
-- show model on multiple markers 
+- ~~show model on multiple markers~~
 - scoring
 - documentation
 - tutorial

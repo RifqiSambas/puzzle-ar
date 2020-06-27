@@ -7,7 +7,7 @@ class Site extends CI_Controller
 
 	public $data = array(
 		'title' => 'ar-based puzzle game',
-		'postion' => 'bottom',
+		'position' => 'bottom',
 		'src' => 'site/common/src',
 	);
 

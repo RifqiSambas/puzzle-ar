@@ -1,4 +1,4 @@
-<?php if ($postion == 'bottom') $this->load->view($src) ?>
+<?php if ($position == 'bottom') $this->load->view($src) ?>
 </body>
 
 
