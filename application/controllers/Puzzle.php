@@ -1,10 +1,7 @@
-
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
 
-class Site extends CI_Controller
+class Puzzle extends CI_Controller
 {
-
 	public $data = array(
 		'title' => 'ar-based puzzle game',
 	);
@@ -18,7 +15,10 @@ class Site extends CI_Controller
 
 	public function index()
 	{
-		$data['pages'] = 'site/index';
+		$data['pages'] = 'puzzle/index';
+
+		$this->Model->upload();
+		$this->Model->split();
 
 		$this->load->view('index', $data);
 	}
