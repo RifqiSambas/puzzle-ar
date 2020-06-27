@@ -21,6 +21,11 @@ class Site extends CI_Controller
 
 	public function upload()
 	{
+		$data = array(
+			'tile' => 'ar-based puzzle game',
+			'pages' => 'puzzle',
+		);
+
 		$folderPath = "assets/uploads/";
 
 		$image_parts = explode(";base64,", $_POST['image']);
@@ -59,11 +64,6 @@ class Site extends CI_Controller
 				imagedestroy($im);
 			}
 		}
-
-		$data = array(
-			'title' => 'ar-based puzzle game',
-			'pages' => 'puzzle',
-		);
 
 		$this->load->view('index', $data);
 	}
