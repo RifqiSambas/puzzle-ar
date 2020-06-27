@@ -7,8 +7,8 @@ still haven't done yet
 - a-frame
 
 ## Accomplishment
-- upload model
-- split model
+- ~~upload model~~
+- ~~split model~~
 - shuffle model
 - scoring
 - documentation
