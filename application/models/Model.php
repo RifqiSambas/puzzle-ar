@@ -19,9 +19,11 @@ class Model extends CI_Model
 		$source = @imagecreatefromjpeg("assets/uploads/model.png");
 		$source_width = imagesx($source);
 		$source_height = imagesy($source);
+
+		$cnt = 0;
 		for ($col = 0; $col < $source_width / $width; $col++) {
 			for ($row = 0; $row < $source_height / $height; $row++) {
-				$fn = sprintf("model%02d_%02d.png", $col, $row);
+				$fn = $cnt++ . ".png";
 				$im = @imagecreatetruecolor($width, $height);
 				imagecopyresized(
 					$im,
