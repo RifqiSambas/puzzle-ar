@@ -7,6 +7,8 @@ class Site extends CI_Controller
 
 	public $data = array(
 		'title' => 'ar-based puzzle game',
+		'postion' => 'bottom',
+		'src' => 'site/common/src',
 	);
 
 	public function __construct()
