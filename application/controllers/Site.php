@@ -4,7 +4,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Site extends CI_Controller
 {
-
 	public function __construct()
 	{
 		parent::__construct();
@@ -14,7 +13,7 @@ class Site extends CI_Controller
 	public function index()
 	{
 		$data = array(
-			'ttile' => 'ar-based puzzle game',
+			'tile' => 'ar-based puzzle game',
 			'pages' => 'form',
 		);
 		$this->load->view('index', $data);
@@ -41,7 +40,7 @@ class Site extends CI_Controller
 
 		for ($col = 0; $col < $source_width / $width; $col++) {
 			for ($row = 0; $row < $source_height / $height; $row++) {
-				$fn = sprintf("model%01d_%01d.png", $col, $row);
+				$fn = sprintf("model%02d_%02d.png", $col, $row);
 
 				$im = @imagecreatetruecolor($width, $height);
 				imagecopyresized(
@@ -62,10 +61,10 @@ class Site extends CI_Controller
 		}
 
 		$data = array(
-			'ttile' => 'ar-based puzzle game',
-			'pages' => 'form',
+			'title' => 'ar-based puzzle game',
+			'pages' => 'puzzle',
 		);
 
-		$this->load->view('index');
+		$this->load->view('index', $data);
 	}
 }
