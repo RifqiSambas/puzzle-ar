@@ -61,8 +61,8 @@ if ($_SERVER['HTTP_HOST'] == 'localhost:8000') {
 	define('ENVIRONMENT', 'staging');
 	define('HOST', 'http://staging.example.com/');
 } else {
-	define('ENVIRONMENT', 'production');
-	define('HOST', 'https://example.com/');
+	define('ENVIRONMENT', 'development');
+	define('HOST', 'https://puzzle.sera5.id/');
 }
 /*
  *---------------------------------------------------------------
