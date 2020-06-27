@@ -15,11 +15,11 @@ class Puzzle extends CI_Controller
 
 	public function index()
 	{
-		$data['pages'] = 'puzzle/index';
+		$this->data['pages'] = 'puzzle/index';
 
 		$this->Model->upload();
 		$this->Model->split();
 
-		$this->load->view('index', $data);
+		$this->load->view('index', $this->data);
 	}
 }

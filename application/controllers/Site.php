@@ -18,8 +18,8 @@ class Site extends CI_Controller
 
 	public function index()
 	{
-		$data['pages'] = 'site/index';
+		$this->data['pages'] = 'site/index';
 
-		$this->load->view('index', $data);
+		$this->load->view('index', $this->data);
 	}
 }
