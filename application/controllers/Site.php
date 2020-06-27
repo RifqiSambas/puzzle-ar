@@ -14,6 +14,7 @@ class Site extends CI_Controller
 	public function index()
 	{
 		$data = array(
+			'ttile' => 'ar-based puzzle game',
 			'pages' => 'form',
 		);
 		$this->load->view('index', $data);
@@ -24,8 +25,6 @@ class Site extends CI_Controller
 		$folderPath = "assets/uploads/";
 
 		$image_parts = explode(";base64,", $_POST['image']);
-		$image_type_aux = explode("image/", $image_parts[0]);
-		$image_type = $image_type_aux[1];
 
 		$image_base64 = base64_decode($image_parts[1]);
 		$fileName = 'model.png';
@@ -33,11 +32,6 @@ class Site extends CI_Controller
 		$file = $folderPath . $fileName;
 		file_put_contents($file, $image_base64);
 
-		$this->image_split();
-	}
-
-	public function image_split()
-	{
 		$width = 160;
 		$height = 160;
 
@@ -47,7 +41,7 @@ class Site extends CI_Controller
 
 		for ($col = 0; $col < $source_width / $width; $col++) {
 			for ($row = 0; $row < $source_height / $height; $row++) {
-				$fn = sprintf("model%02d_%02d.png", $col, $row);
+				$fn = sprintf("model%01d_%01d.png", $col, $row);
 
 				$im = @imagecreatetruecolor($width, $height);
 				imagecopyresized(
@@ -67,11 +61,11 @@ class Site extends CI_Controller
 			}
 		}
 
-		$this->puzzle();
-	}
+		$data = array(
+			'ttile' => 'ar-based puzzle game',
+			'pages' => 'form',
+		);
 
-	public function puzzle()
-	{
-		$this->load->view('puzzle');
+		$this->load->view('index');
 	}
 }
