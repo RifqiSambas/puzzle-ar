@@ -6,14 +6,14 @@ still haven't done yet
 - ar.js
 - a-frame
 
-## Accomplishment
-- ~~upload model~~
-- ~~split model~~
-- shuffle model
-- ~~show model on multiple markers~~
-- scoring
-- documentation
-- tutorial
+## To Do
+- [x] upload model
+- [x] split model
+- [ ] shuffle model
+- [x] multiple models on multiple markers
+- [ ] resulting
+- [ ] documentation
+- [ ] tutorial
 
 ## Meta
 
