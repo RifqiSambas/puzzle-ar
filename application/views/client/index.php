@@ -67,8 +67,15 @@
 		var nowImageBox;
 		var thenImage;
 
+		var arr = [];
+		while (arr.length < 9) {
+			var r = Math.floor(Math.random() * 9);
+			if (arr.indexOf(r) === -1) arr.push(r);
+		}
+
+		console.log(arr);
 		for (let i = 0; i < image.length; i++) {
-			source = "<?= base_url('assets/marker/') ?>" + i + ".jpeg";
+			source = "<?= base_url('assets/marker/') ?>" + arr[i] + ".jpeg";
 			image[i].setAttribute("src", source);
 			image[i].onmousedown = function() {
 				nowImage = this;

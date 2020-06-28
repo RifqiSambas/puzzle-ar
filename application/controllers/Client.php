@@ -9,6 +9,7 @@ class Client extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
+		$this->load->Model('Model');
 	}
 
 	public function index()

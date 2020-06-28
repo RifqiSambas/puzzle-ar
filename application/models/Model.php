@@ -42,4 +42,11 @@ class Model extends CI_Model
 			}
 		}
 	}
+
+	public function acak()
+	{
+		$numbers = range(0, 8);
+		shuffle($numbers);
+		return array_slice($numbers, 0, 8);
+	}
 }
