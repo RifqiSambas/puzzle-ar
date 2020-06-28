@@ -1,5 +1,7 @@
 # Puzzle Game AR 
 still haven't done yet
+link marker https://github.com/rifqisambas/puzzle-arr/marker
+or using device https://puzzle.sera5.id/client
 
 ## Tech Stack
 - codeigniter https://github.com/bcit-ci/CodeIgniter
@@ -14,6 +16,7 @@ still haven't done yet
 - [ ] resulting
 - [ ] documentation
 - [ ] tutorial
+- [ ] draggable markers (small device client site)
 
 ## Meta
 
