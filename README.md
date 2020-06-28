@@ -16,6 +16,7 @@ or using device https://puzzle.sera5.id/client
 - [ ] resulting
 - [ ] documentation
 - [ ] tutorial
+- [ ] draggable markers (small divice client site)
 
 ## Meta
 
