@@ -2,9 +2,9 @@
 still haven't done yet
 
 ## Tech Stack
-- codeigniter
-- ar.js
-- a-frame
+- codeigniter https://github.com/bcit-ci/CodeIgniter
+- ar.js https://github.com/AR-js-org/AR.js
+- a-frame https://github.com/aframevr/aframe
 
 ## To Do
 - [x] upload model
