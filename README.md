@@ -9,7 +9,7 @@ still haven't done yet
 ## To Do
 - [x] upload model
 - [x] split model
-- [ ] shuffle model
+- [ ] shuffle models to random markers
 - [x] multiple models on multiple markers
 - [ ] resulting
 - [ ] documentation
