@@ -11,7 +11,7 @@ or using device https://puzzle.sera5.id/client
 ## To Do
 - [x] upload model
 - [x] split model
-- [ ] shuffle models to random markers
+- [x] shuffle models to random markers
 - [x] multiple models on multiple markers
 - [ ] resulting
 - [ ] documentation
