@@ -45,10 +45,10 @@
 
 		}
 	</script>
-	<div id="puzzle" style="width:70%">
+	<div id="puzzle" style="width:100%">
 		<div class="row">
 			<div class="col-lg-3">
-				<div style="margin-bottom:70px" id="box" class="box"><img alt="0"></div>
+				<div style="margin-bottom:100px" id="box" class="box"><img alt="0"></div>
 			</div>
 			<div class="col-lg-3">
 				<div id="box" class="box"><img alt="1"></div>
@@ -59,7 +59,7 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-3">
-				<div style="margin-bottom:70px" id="box" class="box"><img alt="3"></div>
+				<div style="margin-bottom:100px" id="box" class="box"><img alt="3"></div>
 			</div>
 			<div class="col-lg-3">
 				<div id="box" class="box"><img alt="6"></div>
