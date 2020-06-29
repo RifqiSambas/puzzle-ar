@@ -1,5 +1,4 @@
 # Puzzle Game AR 
-still haven't done yet
 link marker https://github.com/rifqisambas/puzzle-arr/marker
 or using device https://puzzle.sera5.id/client
 
@@ -13,6 +12,7 @@ or using device https://puzzle.sera5.id/client
 - [x] split model
 - [x] shuffle models to random markers
 - [x] multiple models on multiple markers
+- [x] draggable markers
 - [ ] resulting
 - [ ] documentation
 - [ ] tutorial
