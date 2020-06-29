@@ -13,6 +13,7 @@ or using device https://puzzle.sera5.id/client
 - [x] split model
 - [x] shuffle models to random markers
 - [x] multiple models on multiple markers
+- [x] draggable markers
 - [ ] resulting
 - [ ] documentation
 - [ ] tutorial
