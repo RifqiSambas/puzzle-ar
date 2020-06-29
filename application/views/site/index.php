@@ -1,6 +1,6 @@
 <section class="container mt-4">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-5">
 			<div class="card">
 				<div class="card-header">
 					<h1>Puzzle AR</h1>
@@ -16,10 +16,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-8">
-			<div id="results">Your captured image will appear here...</div>
+		<div class="col-md-7">
+			<div id="results">Gambar yang akan dijadikan puzzle akan tampil disini</div>
 			<input type="hidden" name="image" id="image-tag">
-			<input type="submit" value="submit">
+			<br>
+			<input class="btn btn-primary" type="submit" value="mulai permainan">
 			<?= form_close() ?>
 		</div>
 	</div>

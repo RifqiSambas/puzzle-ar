@@ -24,4 +24,10 @@ class Puzzle extends CI_Controller
 
 		$this->load->view('index', $this->data);
 	}
+
+	public function finish()
+	{
+		$this->data['pages'] = 'puzzle/success';
+		$this->load->view('index', $this->data);
+	}
 }

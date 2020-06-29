@@ -17,7 +17,7 @@
 		Webcam.snap(function(data_uri) {
 			document.getElementById('image-tag').value = data_uri;
 			document.getElementById('results').innerHTML =
-				'<h2>Here is your large image:</h2>' +
+				'<h2>Gambar yang akan dijadikan puzzle:</h2>' +
 				'<img src="' + data_uri + '"/>';
 		});
 	}
