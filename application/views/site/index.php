@@ -8,6 +8,10 @@
 				<div class="card-body">
 					<h5>situs ini adalah sebuah permainan puzzle berbasis web</h5>
 					<p>Silahkan ambil gambar untuk dijadikan puzzle</p>
+					<p>
+						<a href="https://github.com/rifqisambas/puzzle-ar/marker">unduh marker</a> -
+						<a href="<?= base_url('client') ?>">client marker</a>
+					</p>
 					<p><a href="">what's this? how to play? f.a.q, etc</a></p>
 					<div id="my_camera"></div>
 					<br>
