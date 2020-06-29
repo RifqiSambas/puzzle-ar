@@ -1,5 +1,4 @@
 # Puzzle Game AR 
-still haven't done yet
 link marker https://github.com/rifqisambas/puzzle-arr/marker
 or using device https://puzzle.sera5.id/client
 
