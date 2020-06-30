@@ -4,7 +4,7 @@ class Model extends CI_Model
 {
 	public function upload()
 	{
-		$folderPath = "assets/uploads/";
+		$folderPath = "./assets/uploads/";
 		$image_parts = explode(";base64,", $_POST['image']);
 		$image_base64 = base64_decode($image_parts[1]);
 		$fileName = 'model.png';
